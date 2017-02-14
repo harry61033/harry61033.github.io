@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav{
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	top:0;
+	z-index: 999;
+	background: #000;
+	opacity: 0.6
+}
+nav ul{
+	width: 100%;
+	height: 40px;
+	list-style: none;	
+}
+nav ul li{
+	display: block;
+	float: left;
+	width: 20%;
+	height: 40px;
+	text-align: center;/*文字水平置中*/
+	line-height: 40px;/*文字垂直置中*/
+	/*border-left: 1px solid #DDDDDD;/*文字旁邊的直列background*/
+	/*border-right: 1px solid #FFFFFF;*//*文字旁邊的直列background**/
+}
+nav a{
+	font-family: 'Ropa Sans', sans-serif;
+	text-decoration: none;
+	font-size:1.8em;
+	letter-spacing: 0.2em;
+	font-weight:bold;
+	color: #fff;
+	opacity: 0.6;
+}
+nav a:hover,nav a:active{
+	color: #fff;
+	text-decoration:underline;
+}
+div{
+	margin:0;
+
+}
+figure figcaption h1{
+	font-family: 'Ropa Sans', sans-serif;
+	text-decoration: none;
+	font-size:1.8em;
+	letter-spacing: 0.2em;
+	font-weight:bold;
+	color: #000;
+}
+figure figcaption h2{
+	float: left;
+	font-family: 'Ropa Sans', sans-serif;
+	font-size:1.8em;
+	letter-spacing: 0.2em;
+	font-weight:bold;
+	color: #000;
+}
+
+figure figcaption p{
+	float: left;
+	text-align:left; 
+	font-family: 'Ropa Sans', sans-serif;
+	font-size:1em;
+	letter-spacing: 0.2em;
+	font-weight:bold;
+	color: #000;
+	opacity: 0.6;
+}
+figcaption{
+	margin: 25px;
+}
+.title{
+	width: 100%;
+	float: left;
+	text-align: center;
+	position: relative;
+	margin: 20px 0;
+	line-height: 80px;
+}
+#sss{
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	top:0;
+	opacity: 0.6;
+	z-index: 999;
+}
+.service{
+	margin: 50px;
+	text-align: center;
+	font-family: 'Ropa Sans', sans-serif;
+	text-decoration: none;
+	font-size:1em;
+	letter-spacing: 0.2em;
+	font-weight:bold;
+	color: #000;
+	opacity: 0.6;
+}
+.Brand{
+	margin: 50px;
+	text-align: center;
+	font-family: 'Ropa Sans', sans-serif;
+	text-decoration: none;
+	font-size:1em;
+	letter-spacing: 0.2em;
+	font-weight:bold;
+	color: #000;
+	opacity: 0.6;
+}
+.slide{
+	width: 100%;
+	height: 100%;
+}

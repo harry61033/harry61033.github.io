@@ -1,0 +1,16 @@
+$(function(){
+	$("nav>ul>li").on({
+		mouseenter:function(){
+			$(this).css("background-color","#AA0000");
+			$(this).children("div").stop().slideDown();
+		},
+		mouseleave:function(){
+			$(this).css("background-color","#CC0000");
+			$(this).children("div").stop().slideUp();
+		},
+		click:function(){
+			$(this).css("background-color","#AA0000");
+			$(this).children("div").stop().slideDown();
+		}
+	});
+});
