@@ -38,17 +38,12 @@ nav{
 	top:0;
 	opacity: 0.6;
 	z-index: 999;
-	background:#fff;
+	background:#CC0000;
 }
-#btn02,#btn03,#btn04,#btn00{
+#btn01,#btn02,#btn03,#btn04{
 	z-index: 999;
-	background:#000;
+	background:#AA0000;
 }
-#btn01{
-	z-index: 999;
-	background: #000;
-}
-
 img{
 	width: 100%;
 	float: left;
@@ -86,7 +81,7 @@ nav a{
 	font-size:1.5em;
 	letter-spacing: 0.2em;
 	font-weight:bold;
-	color: #000;
+	color: #FFFFFF;
 }
 nav a:hover,nav a:active{
 	color: #fff;
@@ -100,15 +95,15 @@ p {
 	font-weight:bold;
 	color: #000;
 	opacity: 0.6;
-	
 }
 
-.title { 
+.title{
 	width: 100%;
 	float: left;
 	text-align: center;
 	position: relative;
-	word-wrap:break-word;
+	margin: 20px 0;
+	line-height: 80px;
 }
 figure figcaption div h1 {
 color: #fff;
@@ -120,7 +115,6 @@ color: #fff;
 	opacity: 0.8;
 
 }
-
 .slide:hover{
 	opacity: 1;
 }
@@ -166,10 +160,9 @@ figure div{
 
 h1 {margin: 0;color:#fff;}
 
-#ii,#iii,#iiii,#iiiii,h3,:nth-child(2) {
+#ii,#iii,#iiii,#iiiii,h3,p,:nth-child(2) {
 	color:#fff;opacity: 1;
 	text-shadow: 2px 2px 3px #434a54;
-	
 }
 
 
@@ -185,12 +178,13 @@ a:active {color:#FFF;}
 	font-family: 'Ropa Sans', sans-serif;
 	text-decoration: none;
 	text-align: center;
-	line-height: 140px;
+	line-height: 80px;
+  	padding: 10px;
   	width: 100%;
-	height:800px;
+	height: 500px;
   	background-position: center;
   	background-attachment;
-  	background-image: url(file:///Users/xiong/Desktop/LARML%202/Images/Mugs.jpg)
+  	background-image: url(https://farm6.staticflickr.com/5827/22955516771_25a80f75ab_o.jpg)
 }
 iframe{
   width: 100%;
@@ -199,24 +193,6 @@ iframe{
 .video{
   position: fixed; z-index: -99;
   width: 100%;
-  height: 100%;
-}
-video{
-	width: 100%;
-	height: 100%;
-}
-.ooop{
-	 z-index: -99;
-  width: 100%;
-  height: 100%;
-margin: 0;
+  height: 104%;
 }
 
-
-#ty{
-	width: 100%;
-	background-color: #fff;
-	height: 100%;
-	opacity: 1;
-	margin: 0; padding: 0;
-}
