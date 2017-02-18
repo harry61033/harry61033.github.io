@@ -22,14 +22,15 @@ h2{
 	color: #000;
 	opacity: 0.8;
 }
-h3{
+.text{
 	font-family: 'Ropa Sans', sans-serif;
 	text-decoration: none;
-	font-size:1.8em;
-	letter-spacing: 0.2em;
+	font-size:0.8em;
+	letter-spacing: 0.4em;
 	font-weight:bold;
 	color: #000;
 	opacity: 0.8;
+}
 }
 nav{
 	width: 100%;
@@ -190,7 +191,7 @@ a:active {color:#FFF;}
 	height:800px;
   	background-position: center;
   	background-attachment;
-  	background-image: url(file:///Users/xiong/Desktop/LARML%202/Images/Mugs.jpg)
+  	background-image: url(https://s6d1.turboimg.net/sp/753ab32a5e21fb623a1485ca88d48526/Mugs.jpg)
 }
 iframe{
   width: 100%;
