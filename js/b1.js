@@ -2,7 +2,7 @@ var myIndex = 0;
 carousel();
 
 $(function(){
-    $('.slick').slick({
+    $('.fadeIn').slick({
         dots: true
     });
 });
