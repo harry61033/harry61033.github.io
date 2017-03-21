@@ -161,8 +161,7 @@ a:active {color:#FFF;}
 .FineItems{
 	font-family: 'Audiowide', cursive;
 	text-align: center;
-	line-height: 260px;
-  	width: 100%;
+  	width: 120%;
 	background-color:#fff;
   	opacity: 1;
   	background-image: url('https://cdn.pixabay.com/photo/2017/02/03/11/28/ripped-2034950_1280.png')
