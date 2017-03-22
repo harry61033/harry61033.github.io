@@ -107,22 +107,6 @@ figure figcaption div h1 {
 figure figcaption div p{
 	color: #fff;
 }
-.slide{
-	opacity: 0.8;
-
-}
-
-.slide:hover{
-	opacity: 1;
-}
-#black {
-	width: 1360px;
-	height: 850px;
-	position: relative;
-	z-index: 10;
-	background-color: rgb(80,80,80);
-	opacity: 0.7;
-}
 .viewbox {
 	font-family: 'Audiowide', cursive;
 	text-decoration: none;
@@ -150,37 +134,20 @@ h1 {margin: 0;color:#fff;}
 #ii,#iii,#iiii,#iiiii{
 	color:#fff;opacity: 1;
 }
-body { padding: 0; }
-
-a:link {color:#FFF:;}
-a:visited {color:#fff;}
-a:hover {color:#FFF;} 
-a:active {color:#FFF;} 
-
-
 .FineItems{
 	font-family: 'Audiowide', cursive;
 	text-align: center;
-	line-height: 125px;
+	line-height: 132px;
   	width: 100%;
 	background-color:#000;
   	opacity: 0.3;
   	margin: 0px 0px 0px 0px;
  }
-iframe{
-  	width: 100%;
-  	height: 100%;
-}
 video{
 	position:fixed; z-index: -100;
   	width: 120%;
 }
-.ooop{
-	z-index: -99;
-  	width: 100%;
-  	height: 100%;
-	margin: 0;
-}
+
 
 #Declare{
 	text-align: center;
@@ -191,8 +158,3 @@ video{
 	color: #fff;
 	line-height: 50px;
 	}
-.KeyboardVideo{
-	width: 100%;
-	height: 100%;
-}
-
